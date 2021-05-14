@@ -19,6 +19,7 @@ package programs
 import (
 	"container/list"
 	"encoding/json"
+	"github.com/go-co-op/gocron"
 	"github.com/mholt/archiver"
 	"github.com/pufferpanel/pufferpanel/v2"
 	"github.com/pufferpanel/pufferpanel/v2/config"
@@ -39,6 +40,7 @@ type Program struct {
 
 	CrashCounter       int                     `json:"-"`
 	RunningEnvironment pufferpanel.Environment `json:"-"`
+	Scheduler          *gocron.Scheduler       `json:"-"`
 }
 
 var queue *list.List
@@ -184,11 +186,11 @@ func (p *Program) Start() (err error) {
 
 	cmd, args := pufferpanel.SplitArguments(commandLine)
 	err = p.RunningEnvironment.ExecuteAsync(pufferpanel.ExecutionData{
-		Command:     cmd,
-		Arguments:   args,
-		Environment: pufferpanel.ReplaceTokensInMap(p.Execution.EnvironmentVariables, data),
+		Command:          cmd,
+		Arguments:        args,
+		Environment:      pufferpanel.ReplaceTokensInMap(p.Execution.EnvironmentVariables, data),
 		WorkingDirectory: workDir,
-		Callback:    p.afterExit,
+		Callback:         p.afterExit,
 	})
 
 	if err != nil {

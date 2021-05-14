@@ -19,6 +19,7 @@ package programs
 import (
 	"encoding/json"
 	"errors"
+	"github.com/go-co-op/gocron"
 	"github.com/pufferpanel/pufferpanel/v2"
 	"github.com/pufferpanel/pufferpanel/v2/config"
 	"github.com/pufferpanel/pufferpanel/v2/environments"
@@ -28,6 +29,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 )
 
 var (
@@ -127,6 +129,36 @@ func LoadFromData(id string, source []byte) (*Program, error) {
 
 	environmentType := typeMap.Type
 	data.RunningEnvironment, err = environments.Create(environmentType, ServerFolder, id, data.Environment)
+
+	s := gocron.NewScheduler(time.UTC)
+	for i := range data.Tasks {
+		t := data.Tasks[i]
+		_, err := s.Cron(t.Cron).Do(func(ops []interface{}, p *Program) {
+			if len(ops) > 0 {
+				process, err := operations.GenerateProcess(ops, p.GetEnvironment(), p.DataToMap(), p.Execution.EnvironmentVariables)
+				if err != nil {
+					logging.Error().Printf("Error setting up tasks: %s", err)
+					p.RunningEnvironment.DisplayToConsole(true, "Failed to setup tasks\n")
+					p.RunningEnvironment.DisplayToConsole(true, "%s\n", err.Error())
+					return
+				}
+
+				err = process.Run(p.RunningEnvironment)
+				if err != nil {
+					logging.Error().Printf("Error setting up tasks: %s", err)
+					p.RunningEnvironment.DisplayToConsole(true, "Failed to setup tasks\n")
+					p.RunningEnvironment.DisplayToConsole(true, "%s\n", err.Error())
+					return
+				}
+			}
+		}, t.Operations, data)
+		if err != nil {
+			return nil, err
+		}
+	}
+	s.SetMaxConcurrentJobs(5, gocron.RescheduleMode)
+	s.StartAsync()
+	data.Scheduler = s
 	if err != nil {
 		return nil, err
 	}
@@ -247,6 +279,7 @@ func Reload(id string) (err error) {
 		err = errors.New("server does not exist")
 		return
 	}
+	program.Scheduler.Stop()
 	logging.Info().Printf("Reloading server %s", program.Id())
 	newVersion, err := Load(id)
 	if err != nil {

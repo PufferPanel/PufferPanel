@@ -19,15 +19,15 @@ package operations
 import (
 	"github.com/pufferpanel/pufferpanel/v2"
 	"github.com/pufferpanel/pufferpanel/v2/operations/alterfile"
-	"github.com/pufferpanel/pufferpanel/v2/operations/archive"
 	"github.com/pufferpanel/pufferpanel/v2/operations/command"
+	"github.com/pufferpanel/pufferpanel/v2/operations/console"
 	"github.com/pufferpanel/pufferpanel/v2/operations/download"
-	"github.com/pufferpanel/pufferpanel/v2/operations/extract"
 	"github.com/pufferpanel/pufferpanel/v2/operations/fabricdl"
 	"github.com/pufferpanel/pufferpanel/v2/operations/forgedl"
 	"github.com/pufferpanel/pufferpanel/v2/operations/mkdir"
 	"github.com/pufferpanel/pufferpanel/v2/operations/mojangdl"
 	"github.com/pufferpanel/pufferpanel/v2/operations/move"
+	"github.com/pufferpanel/pufferpanel/v2/operations/sleep"
 	"github.com/pufferpanel/pufferpanel/v2/operations/spongeforgedl"
 	"github.com/pufferpanel/pufferpanel/v2/operations/writefile"
 	"github.com/spf13/cast"
@@ -165,9 +165,9 @@ func loadCoreModules() {
 	fabricDlFactory := fabricdl.Factory
 	commandMapping[fabricDlFactory.Key()] = fabricDlFactory
 
-	extractFactory := extract.Factory
-	commandMapping[extractFactory.Key()] = extractFactory
+	sleepFactory := sleep.Factory
+	commandMapping[sleepFactory.Key()] = sleepFactory
 
-	archiveFactory := archive.Factory
-	commandMapping[archiveFactory.Key()] = archiveFactory
+	consoleFactory := console.Factory
+	commandMapping[consoleFactory.Key()] = consoleFactory
 }

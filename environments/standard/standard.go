@@ -70,12 +70,12 @@ func (s *standard) standardExecuteAsync(steps pufferpanel.ExecutionData) (err er
 	s.stdInWriter = pipe
 	logging.Info().Printf("Starting process: %s %s", s.mainProcess.Path, strings.Join(s.mainProcess.Args[1:], " "))
 
-	msg := messages.Status{Running:true}
+	msg := messages.Status{Running: true}
 	_ = s.WSManager.WriteMessage(msg)
 
 	err = s.mainProcess.Start()
 	if err != nil && err.Error() != "exit status 1" {
-		msg := messages.Status{Running:false}
+		msg := messages.Status{Running: false}
 		_ = s.WSManager.WriteMessage(msg)
 		logging.Info().Printf("Process failed to start: %s", err)
 		return
@@ -188,7 +188,7 @@ func (s *standard) handleClose(callback func(graceful bool)) {
 	err := s.mainProcess.Wait()
 	s.Wait.Done()
 
-	msg := messages.Status{Running:false}
+	msg := messages.Status{Running: false}
 	_ = s.WSManager.WriteMessage(msg)
 
 	var graceful bool

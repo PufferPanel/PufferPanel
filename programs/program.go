@@ -189,6 +189,7 @@ func (p *Program) Start() (err error) {
 		Environment: pufferpanel.ReplaceTokensInMap(p.Execution.EnvironmentVariables, data),
 		WorkingDirectory: workDir,
 		Callback:    p.afterExit,
+		Data:        data,
 	})
 
 	if err != nil {

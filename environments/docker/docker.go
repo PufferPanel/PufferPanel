@@ -84,6 +84,8 @@ func (d *docker) dockerExecuteAsync(steps pufferpanel.ExecutionData) error {
 		return errors.New("docker container already exists")
 	}
 
+	d.ImageName = pufferpanel.ReplaceTokens(d.ImageName, steps.Data)
+
 	err = d.createContainer(dockerClient, ctx, steps.Command, steps.Arguments, steps.Environment, steps.WorkingDirectory)
 	if err != nil {
 		return err

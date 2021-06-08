@@ -80,11 +80,12 @@ type BaseEnvironment struct {
 }
 
 type ExecutionData struct {
-	Command string
-	Arguments []string
-	Environment map[string]string
+	Command          string
+	Arguments        []string
+	Environment      map[string]string
 	WorkingDirectory string
-	Callback func(graceful bool)
+	Callback         func(graceful bool)
+	Data             map[string]interface{}
 }
 
 type ExecutionFunction func(steps ExecutionData) (err error)

@@ -20,7 +20,7 @@ import (
 )
 
 type Server struct {
-	Name       string `gorm:"UNIQUE_INDEX;size:40;NOT NULL" json:"-" validate:"required,printascii"`
+	Name       string `gorm:"size:40;NOT NULL" json:"-" validate:"required,printascii"`
 	Identifier string `gorm:"UNIQUE_INDEX;NOT NULL;PRIMARY_KEY;size:8" json:"-" validate:"required,printascii"`
 
 	NodeID uint `gorm:"NOT NULL" json:"-" validate:"required,min=1"`

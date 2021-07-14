@@ -22,5 +22,6 @@
   "ViewTemplates": "Se mallar",
   "EditTemplates": "Redigera mallar",
   "ViewUsers": "Se alla användare",
-  "EditUsers": "Redigera andra användare"
+  "EditUsers": "Redigera andra användare",
+  "PanelSettings": "Change panel settings"
 }

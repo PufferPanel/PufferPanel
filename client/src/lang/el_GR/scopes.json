@@ -22,5 +22,6 @@
   "ViewTemplates": "See Templates",
   "EditTemplates": "Edit Templates",
   "ViewUsers": "See all Users",
-  "EditUsers": "Edit other Users"
+  "EditUsers": "Edit other Users",
+  "PanelSettings": "Change panel settings"
 }

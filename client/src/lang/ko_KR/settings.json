@@ -1,12 +1,12 @@
 {
-  "Settings": "Settings",
-  "PanelSettings": "Panel Settings",
-  "EmailSettings": "Email Settings",
+  "Settings": "설정",
+  "PanelSettings": "패널 설정",
+  "EmailSettings": "이메일 설정",
   "MasterUrl": "Master URL",
   "MasterUrlHint": "The base URL the panel can be reached under in the format http://localhost:8080",
-  "CompanyName": "Company Name",
-  "DefaultTheme": "Default Theme",
-  "EmailProvider": "Email Provider",
+  "CompanyName": "회사 이름",
+  "DefaultTheme": "기본 테마",
+  "EmailProvider": "이메일 제공 업체",
   "emailProviders": {
     "none": "None",
     "smtp": "SMTP",
@@ -15,10 +15,10 @@
   },
   "emailFields": {
     "from": "Sender Address",
-    "domain": "Domain",
-    "key": "API-Key",
-    "host": "Host",
+    "domain": "도메인",
+    "key": "API 키",
+    "host": "호스트",
     "username": "Username",
-    "password": "Password"
+    "password": "Username"
   }
 }

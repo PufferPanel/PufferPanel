@@ -7,13 +7,13 @@
   "Upload": "上傳",
   "Download": "下載",
   "Size": "大小",
-  "NoFiles": "這邊沒有檔案，透過上方安裝按鈕來新增檔案",
+  "NoFiles": "這邊沒有檔案，請透過上方安裝按鈕來新增檔案",
   "FileLoadFailed": "檔案讀取失敗",
-  "Refresh": "Refresh",
-  "CreateFile": "Create file",
-  "CreateFolder": "Create folder",
-  "ArchiveCurrentFolder": "Create archive from current folder",
-  "ArchiveFolder": "Create archive from folder",
-  "ExtractArchive": "Extract archive",
-  "DropToUpload": "Drop files here to upload them"
+  "Refresh": "重新整理",
+  "CreateFile": "建立檔案",
+  "CreateFolder": "建立資料夾",
+  "ArchiveCurrentFolder": "建立目前資料夾的封存檔",
+  "ArchiveFolder": "建立資料夾的封存檔",
+  "ExtractArchive": "擷取封存檔內容",
+  "DropToUpload": "拖曳檔案至此即可上傳"
 }

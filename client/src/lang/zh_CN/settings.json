@@ -1,24 +1,24 @@
 {
-  "Settings": "Settings",
-  "PanelSettings": "Panel Settings",
-  "EmailSettings": "Email Settings",
-  "MasterUrl": "Master URL",
-  "MasterUrlHint": "The base URL the panel can be reached under in the format http://localhost:8080",
-  "CompanyName": "Company Name",
-  "DefaultTheme": "Default Theme",
-  "EmailProvider": "Email Provider",
+  "Settings": "设置",
+  "PanelSettings": "面板设置",
+  "EmailSettings": "邮件设置",
+  "MasterUrl": "主 URL",
+  "MasterUrlHint": "面板的基准地址，如 http://localhost:8080",
+  "CompanyName": "企业名称",
+  "DefaultTheme": "默认主题",
+  "EmailProvider": "邮件供应商",
   "emailProviders": {
-    "none": "None",
+    "none": "无",
     "smtp": "SMTP",
     "mailgun": "Mailgun",
     "mailjet": "Mailjet"
   },
   "emailFields": {
-    "from": "Sender Address",
-    "domain": "Domain",
-    "key": "API-Key",
-    "host": "Host",
-    "username": "Username",
-    "password": "Password"
+    "from": "发送地址",
+    "domain": "域名",
+    "key": "API 密钥",
+    "host": "主机",
+    "username": "用户名",
+    "password": "密码"
   }
 }

@@ -24,7 +24,7 @@
   "Edit": "Edit User",
   "Update": "Update User",
   "Delete": "Delete User",
-  "CreateSuccess": "Created User",
+  "CreateSuccess": "User successfully created",
   "CreateError": "Failed creating user",
   "UpdateSuccess": "Updated User",
   "UpdateError": "Failed updating user",
@@ -34,8 +34,8 @@
   "OtpDisable": "Disable 2FA",
   "OtpHint": "Two-factor authentication adds an additional layer of security to your account by requiring more than just a password to log in.",
   "OtpSetup": "2FA Setup",
-  "OtpSetupHint": "Scan the QR code using your authenticator application or copy the secret code below into it",
+  "OtpSetupHint": "Scan the QR code using your authenticator application or copy the secret code below into it.",
   "OtpSecret": "Secret Code",
   "OtpConfirm": "Confirm using a 2FA code",
-  "OtpNeeded": "Second factor required"
+  "OtpNeeded": "2FA required"
 }

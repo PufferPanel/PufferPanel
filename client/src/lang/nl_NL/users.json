@@ -29,7 +29,7 @@
   "UpdateSuccess": "Gebruiker Bijgewerkt",
   "UpdateError": "Gebruiker bijwerken mislukt",
   "PermsUpdateError": "Gebruikersrechten updaten mislukt",
-  "Otp": "Two factor authentication",
+  "Otp": "Authenticatie in twee stappen",
   "OtpEnable": "Enable 2FA",
   "OtpDisable": "Disable 2FA",
   "OtpHint": "Two-factor authentication adds an additional layer of security to your account by requiring more than just a password to log in.",

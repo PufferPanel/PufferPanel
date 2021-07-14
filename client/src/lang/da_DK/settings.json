@@ -1,24 +1,24 @@
 {
-  "Settings": "Settings",
-  "PanelSettings": "Panel Settings",
-  "EmailSettings": "Email Settings",
+  "Settings": "Indstillinger",
+  "PanelSettings": "Panel indstillinger",
+  "EmailSettings": "Email Indstillinger",
   "MasterUrl": "Master URL",
   "MasterUrlHint": "The base URL the panel can be reached under in the format http://localhost:8080",
-  "CompanyName": "Company Name",
-  "DefaultTheme": "Default Theme",
-  "EmailProvider": "Email Provider",
+  "CompanyName": "Virksomheds navn",
+  "DefaultTheme": "Standardtema",
+  "EmailProvider": "Email Udbyder",
   "emailProviders": {
-    "none": "None",
+    "none": "Intet",
     "smtp": "SMTP",
     "mailgun": "Mailgun",
     "mailjet": "Mailjet"
   },
   "emailFields": {
-    "from": "Sender Address",
-    "domain": "Domain",
-    "key": "API-Key",
-    "host": "Host",
-    "username": "Username",
-    "password": "Password"
+    "from": "Afsenderadresse",
+    "domain": "Domæne",
+    "key": "API-nøgle",
+    "host": "Vært",
+    "username": "Brugernavn",
+    "password": "Adgangskode"
   }
 }

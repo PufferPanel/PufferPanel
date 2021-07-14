@@ -9,11 +9,11 @@
   "Size": "Størrelse",
   "NoFiles": "Der er ingen filer her endnu, opret nogle ved for eksempel at klikke på installations knappen øverst på siden",
   "FileLoadFailed": "Kunne ikke indlæse filen",
-  "Refresh": "Refresh",
-  "CreateFile": "Create file",
-  "CreateFolder": "Create folder",
-  "ArchiveCurrentFolder": "Create archive from current folder",
-  "ArchiveFolder": "Create archive from folder",
-  "ExtractArchive": "Extract archive",
-  "DropToUpload": "Drop files here to upload them"
+  "Refresh": "Genindlæs",
+  "CreateFile": "Opret fil",
+  "CreateFolder": "Opret mappe",
+  "ArchiveCurrentFolder": "Opret arkiv fra den aktuelle mappe",
+  "ArchiveFolder": "Opret arkiv fra mappe",
+  "ExtractArchive": "Udpak arkiv",
+  "DropToUpload": "Træk filer her for at uploade dem"
 }

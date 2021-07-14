@@ -22,5 +22,6 @@
   "ViewTemplates": "مشاهدة القوالب",
   "EditTemplates": "تعديل القوالب",
   "ViewUsers": "رؤية كافة المستخدمين",
-  "EditUsers": "تعديل مستخدمين آخرين"
+  "EditUsers": "تعديل مستخدمين آخرين",
+  "PanelSettings": "Change panel settings"
 }

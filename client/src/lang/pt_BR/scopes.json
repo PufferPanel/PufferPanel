@@ -22,5 +22,6 @@
   "ViewTemplates": "Ver modelos",
   "EditTemplates": "Editar modelos",
   "ViewUsers": "Ver todos os usuários",
-  "EditUsers": "Editar outros usuários"
+  "EditUsers": "Editar outros usuários",
+  "PanelSettings": "Change panel settings"
 }

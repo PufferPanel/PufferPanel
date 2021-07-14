@@ -22,5 +22,6 @@
   "ViewTemplates": "Şablonları Gör",
   "EditTemplates": "Şablonu Düzenle",
   "ViewUsers": "Tüm kullanıcıları görüntüle",
-  "EditUsers": "Diğer kullanıcıları düzenle"
+  "EditUsers": "Diğer kullanıcıları düzenle",
+  "PanelSettings": "Change panel settings"
 }

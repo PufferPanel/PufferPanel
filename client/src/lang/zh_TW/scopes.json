@@ -1,9 +1,9 @@
 {
-  "ServersView": "可以查看這個伺服器",
-  "ServersEdit": "編輯這個伺服器",
+  "ServersView": "可以檢視本台伺服器",
+  "ServersEdit": "編輯伺服器",
   "ServersInstall": "安裝伺服器",
-  "ServersConsole": "查看控制台",
-  "ServersConsoleSend": "傳送指令到控制台",
+  "ServersConsole": "檢視主控台",
+  "ServersConsoleSend": "傳送命令至主控台",
   "ServersStop": "停止和強制關閉伺服器",
   "ServersStart": "啟動伺服器",
   "ServersStat": "查看 CPU 與記憶體狀態",
@@ -12,8 +12,8 @@
   "ServersFilesPut": "使用檔案管理器編輯和上傳檔案",
   "ServersEditUsers": "編輯使用者存取這個伺服器",
   "Admin": "管理員 (將會給予所有權限)",
-  "ViewServers": "查看伺服器",
-  "CreateServers": "新增新伺服器",
+  "ViewServers": "檢視伺服器",
+  "CreateServers": "建立新伺服器",
   "DeleteServers": "刪除伺服器",
   "EditServerAdmin": "編輯伺服器設定",
   "ViewNodes": "查看節點",
@@ -22,5 +22,6 @@
   "ViewTemplates": "查看範本",
   "EditTemplates": "編輯範本",
   "ViewUsers": "查看所有使用者",
-  "EditUsers": "編輯其他使用者"
+  "EditUsers": "編輯其他使用者",
+  "PanelSettings": "Change panel settings"
 }

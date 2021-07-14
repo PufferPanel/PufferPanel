@@ -22,5 +22,6 @@
   "ViewTemplates": "Lihat tempelate",
   "EditTemplates": "Edit Tempelate",
   "ViewUsers": "Lihat semua penguna",
-  "EditUsers": "Edit penguna lain"
+  "EditUsers": "Edit penguna lain",
+  "PanelSettings": "Change panel settings"
 }

@@ -22,5 +22,6 @@
   "ViewTemplates": "Vaata Malle",
   "EditTemplates": "Muuda Malle",
   "ViewUsers": "Vaata kõiki Kasutajaid",
-  "EditUsers": "Muuda teisi Kasutajaid"
+  "EditUsers": "Muuda teisi Kasutajaid",
+  "PanelSettings": "Change panel settings"
 }

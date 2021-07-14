@@ -9,11 +9,11 @@
   "Size": "Размер",
   "NoFiles": "Здесь пока нет файлов, для появления файлов, к примеру, вы можете выполнить установку в верхней части страницы",
   "FileLoadFailed": "Ошибка загрузки файла",
-  "Refresh": "Refresh",
-  "CreateFile": "Create file",
-  "CreateFolder": "Create folder",
-  "ArchiveCurrentFolder": "Create archive from current folder",
-  "ArchiveFolder": "Create archive from folder",
-  "ExtractArchive": "Extract archive",
-  "DropToUpload": "Drop files here to upload them"
+  "Refresh": "Обновить",
+  "CreateFile": "Создать файл",
+  "CreateFolder": "Создать папку",
+  "ArchiveCurrentFolder": "Создать архив из текущей папки",
+  "ArchiveFolder": "Создать архив из папки",
+  "ExtractArchive": "Распаковать архив",
+  "DropToUpload": "Перетащите файлы сюда, чтобы загрузить их"
 }

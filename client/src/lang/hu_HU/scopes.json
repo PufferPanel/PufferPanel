@@ -11,8 +11,8 @@
   "ServersFilesGet": "Megtekinthet és letölthet fájlokat a fájlkezelőn keresztül",
   "ServersFilesPut": "Szerkeszthet és feltölthet fájlokat a fájlkezelön keresztül",
   "ServersEditUsers": "Szerkesztheti a felhasználók szerverhez való engededélyeit",
-  "Admin": "Admin (megkap minden jogosultságot)",
-  "ViewServers": "See Servers",
+  "Admin": "Admin (megkap minden jogot)",
+  "ViewServers": "Szerverek megtekintése",
   "CreateServers": "Létrehozhat új szervereket",
   "DeleteServers": "Törölhet szervereket",
   "EditServerAdmin": "Módosíthat szerverbeállításokat",
@@ -22,5 +22,6 @@
   "ViewTemplates": "Megtekinthet sablonokat",
   "EditTemplates": "Szerkeszthet sablonokat",
   "ViewUsers": "Láthatja az összes felhasználót",
-  "EditUsers": "Szerkesztheti más felhasználók adatait"
+  "EditUsers": "Szerkesztheti más felhasználók adatait",
+  "PanelSettings": "A panel beállításainak módosítása"
 }

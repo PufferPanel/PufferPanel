@@ -25,7 +25,7 @@
   "Source": "源",
   "Target": "目标",
   "Version": "版本",
-  "ReleaseType": "发布类型",
+  "ReleaseType": "版本类型",
   "AddFile": "添加文件",
   "AddVariable": "添加变量",
   "Environment": "环境",
@@ -47,7 +47,7 @@
   "DeletePostStep": "删除运行后步骤",
   "Shutdown": "关闭",
   "Command": "命令",
-  "WorkingDirectory": "Working Directory",
+  "WorkingDirectory": "工作目录",
   "Arguments": "参数",
   "AddArgument": "添加参数",
   "Convert": "转换",
@@ -101,7 +101,7 @@
     },
     "spongeforgedl": {
       "ProcessorName": "下载 Minecraft SpongeForge",
-      "releaseType": "发布类型"
+      "releaseType": "版本类型"
     },
     "fabricdl": {
       "ProcessorName": "下载 Minecraft Fabric"

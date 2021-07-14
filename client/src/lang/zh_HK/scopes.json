@@ -22,5 +22,6 @@
   "ViewTemplates": "檢視範本",
   "EditTemplates": "編輯範本",
   "ViewUsers": "檢視所有用戶",
-  "EditUsers": "編輯其他用戶"
+  "EditUsers": "編輯其他用戶",
+  "PanelSettings": "Change panel settings"
 }

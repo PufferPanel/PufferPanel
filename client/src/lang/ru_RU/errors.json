@@ -34,8 +34,8 @@
   "ErrSessionTimedOut": "Время сессии истекло, пожалуйста, повторите вход",
   "ErrMissingScope": "У вас нет прав для совершения данного действия",
   "ErrInvalidJson": "Json данные недействительны",
-  "ErrSocketFailed": "The WebSocket connection encountered an error, some features might be slow or broken",
-  "ErrInviteLinkInvalid": "Your invite link appears to be invalid",
-  "ErrSavingInviteduser": "There was an error creating your account",
-  "ErrDirectoryUploadNotSupported": "Cannot upload folders"
+  "ErrSocketFailed": "Соединение WebSocket обнаружило ошибку, некоторые функции могут работать медленно или не работать",
+  "ErrInviteLinkInvalid": "Ваша пригласительная ссылка недействительна",
+  "ErrSavingInviteduser": "Во время создания аккаунта произошла ошибка",
+  "ErrDirectoryUploadNotSupported": "Не удается загрузить папки"
 }

@@ -1,24 +1,24 @@
 {
-  "Settings": "Settings",
-  "PanelSettings": "Panel Settings",
-  "EmailSettings": "Email Settings",
-  "MasterUrl": "Master URL",
-  "MasterUrlHint": "The base URL the panel can be reached under in the format http://localhost:8080",
-  "CompanyName": "Company Name",
-  "DefaultTheme": "Default Theme",
-  "EmailProvider": "Email Provider",
+  "Settings": "設定",
+  "PanelSettings": "面板設定",
+  "EmailSettings": "電子郵件設定",
+  "MasterUrl": "主 URL",
+  "MasterUrlHint": "可以用來存取本面板的 URL 基底，格式為 http://localhost:8080",
+  "CompanyName": "公司名稱",
+  "DefaultTheme": "預設主題",
+  "EmailProvider": "電子信箱提供者",
   "emailProviders": {
-    "none": "None",
+    "none": "無",
     "smtp": "SMTP",
     "mailgun": "Mailgun",
     "mailjet": "Mailjet"
   },
   "emailFields": {
-    "from": "Sender Address",
-    "domain": "Domain",
-    "key": "API-Key",
-    "host": "Host",
-    "username": "Username",
-    "password": "Password"
+    "from": "寄送者信箱",
+    "domain": "網域",
+    "key": "API 金鑰",
+    "host": "主機",
+    "username": "使用者名稱",
+    "password": "密碼"
   }
 }

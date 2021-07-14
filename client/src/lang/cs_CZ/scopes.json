@@ -2,7 +2,7 @@
   "ServersView": "Může zobrazit tento server",
   "ServersEdit": "Upravit server",
   "ServersInstall": "Nainstalovat server",
-  "ServersConsole": "Zobrazit konzoli",
+  "ServersConsole": "Zobrazit protokol konzole",
   "ServersConsoleSend": "Poslat příkazy do konzole",
   "ServersStop": "Zastavit a ukončit server",
   "ServersStart": "Spustit server",
@@ -22,5 +22,6 @@
   "ViewTemplates": "Zobrazit šablony",
   "EditTemplates": "Upravit šablony",
   "ViewUsers": "Zobrazit všechny uživatele",
-  "EditUsers": "Upravit ostatní uživatele"
+  "EditUsers": "Upravit ostatní uživatele",
+  "PanelSettings": "Change panel settings"
 }

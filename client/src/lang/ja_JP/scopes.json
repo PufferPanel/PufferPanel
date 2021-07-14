@@ -22,5 +22,6 @@
   "ViewTemplates": "テンプレートを見る",
   "EditTemplates": "テンプレートの編集",
   "ViewUsers": "すべてのユーザーを表示",
-  "EditUsers": "他のユーザーを編集"
+  "EditUsers": "他のユーザーを編集",
+  "PanelSettings": "Change panel settings"
 }

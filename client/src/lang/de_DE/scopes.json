@@ -22,5 +22,6 @@
   "ViewTemplates": "Vorlagen anzeigen",
   "EditTemplates": "Vorlagen bearbeiten",
   "ViewUsers": "Alle Benutzer anzeigen",
-  "EditUsers": "Andere Benutzer bearbeiten"
+  "EditUsers": "Andere Benutzer bearbeiten",
+  "PanelSettings": "Bedienfeldeinstellungen ändern"
 }

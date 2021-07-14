@@ -32,10 +32,10 @@
   "LanguageName": "Magyar",
   "Details": "Részletek",
   "ErrorDetails": "Hiba részletei",
-  "HelpTranslate": "Segítsen a PufferPanel fordításában",
+  "HelpTranslate": "Segíts a PufferPanel fordításában",
   "DarkMode": "Sötét mód",
   "ThemeOptions": "Téma beállítások",
-  "Protocol": "Protocol",
-  "Add": "Add",
-  "Ignore": "Ignore"
+  "Protocol": "Protokol",
+  "Add": "Hozzáadás",
+  "Ignore": "Mellőzés"
 }

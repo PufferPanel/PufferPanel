@@ -1,7 +1,7 @@
 {
   "Templates": "Sablonok",
   "NoTemplates": "Még nincsenek itt sablonok",
-  "Deleted": "Template deleted",
+  "Deleted": "Sablon törölve",
   "New": "Új sablon",
   "Edit": "Sablon szerkesztése",
   "Editor": "Szerkesztő",
@@ -28,10 +28,10 @@
   "ReleaseType": "A kiadás típusa",
   "AddFile": "Fájl hozzáadása",
   "AddVariable": "Mező hozzáadása",
-  "Environment": "Environment",
-  "Environments": "Environments",
+  "Environment": "Környezet",
+  "Environments": "Környezetek",
   "AddEnvironment": "Környezet hozzáadása",
-  "DefaultEnvironment": "Default environment",
+  "DefaultEnvironment": "Alapértelmezett Környezet",
   "AddEnvVar": "Új környezeti változó hozzáadása",
   "EnvVars": "Környezeti változók",
   "DockerImage": "Docker kép",
@@ -47,11 +47,11 @@
   "DeletePostStep": "Utólagos beavatkozási rutin törlése",
   "Shutdown": "Leállítás",
   "Command": "Parancs",
-  "WorkingDirectory": "Working Directory",
+  "WorkingDirectory": "Munkafelület",
   "Arguments": "Argumentumok",
   "AddArgument": "Argumentum hozzáadása",
-  "Convert": "Convert",
-  "OfferV1Convert": "This template json looks like a template for PufferPanel 1.x, do you want to automatically convert this to a template for PufferPanel 2.x?",
+  "Convert": "Konvertálás",
+  "OfferV1Convert": "Ez a json sablon úgy néz ki, hogy a PufferPanel 1.x-es verziójához készült. Szeretnéd, hogy átkonvertáljuk ezt PufferPanel 2.x-es verzióra?",
   "import": {
     "OverrideWarning": "FIGYELEM: Az importált sablonok ÁTÍRNAK minden létező sablont, aminek egyező IDje van",
     "Import": "Sablonok importálása",
@@ -68,43 +68,43 @@
   },
   "processors": {
     "download": {
-      "ProcessorName": "Download",
-      "files": "Files"
+      "ProcessorName": "Letöltés",
+      "files": "Fájlok"
     },
     "command": {
-      "ProcessorName": "Run Command",
-      "commands": "Commands"
+      "ProcessorName": "Parancs Futtatása",
+      "commands": "Parancsok"
     },
     "alterfile": {
-      "ProcessorName": "Change file",
-      "regex": "Treat search as RegEx",
-      "search": "Text to search",
-      "replace": "Replace with"
+      "ProcessorName": "Fájl megváltoztatása",
+      "regex": "Keresés alkalmazása, mint RegEx",
+      "search": "Keresendő szöveg",
+      "replace": "Csere erre"
     },
     "writefile": {
-      "ProcessorName": "Write to file",
-      "text": "Content"
+      "ProcessorName": "Fájlba írás",
+      "text": "Tartalom"
     },
     "move": {
-      "ProcessorName": "Move File",
-      "source": "Source",
-      "target": "Target"
+      "ProcessorName": "Fájl áthelyezése",
+      "source": "Forrás",
+      "target": "Cél"
     },
     "mkdir": {
-      "ProcessorName": "Create Directory"
+      "ProcessorName": "Mappa létrehozása"
     },
     "mojangdl": {
-      "ProcessorName": "Download Minecraft"
+      "ProcessorName": "Minecraft Letöltése"
     },
     "forgedl": {
-      "ProcessorName": "Download Minecraft Forge"
+      "ProcessorName": "Minecraft Forge Letöltése"
     },
     "spongeforgedl": {
-      "ProcessorName": "Download Minecraft SpongeForge",
-      "releaseType": "Release Type"
+      "ProcessorName": "Minecraft SpongeForge Letöltése",
+      "releaseType": "Kiadás Típusa"
     },
     "fabricdl": {
-      "ProcessorName": "Download Minecraft Fabric"
+      "ProcessorName": "Minecraft Fabric Letöltése"
     }
   }
 }

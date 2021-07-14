@@ -1,24 +1,24 @@
 {
-  "Settings": "Settings",
-  "PanelSettings": "Panel Settings",
-  "EmailSettings": "Email Settings",
-  "MasterUrl": "Master URL",
-  "MasterUrlHint": "The base URL the panel can be reached under in the format http://localhost:8080",
-  "CompanyName": "Company Name",
-  "DefaultTheme": "Default Theme",
-  "EmailProvider": "Email Provider",
+  "Settings": "Настройки",
+  "PanelSettings": "Настройки панели",
+  "EmailSettings": "Настройки электронной почты",
+  "MasterUrl": "Главный URL",
+  "MasterUrlHint": "Базовый URL-адрес, по которому можно получить доступ к панели, в формате http://localhost:8080",
+  "CompanyName": "название компании",
+  "DefaultTheme": "Тема по умолчанию",
+  "EmailProvider": "Провайдер электронной почты",
   "emailProviders": {
-    "none": "None",
+    "none": "Никто",
     "smtp": "SMTP",
     "mailgun": "Mailgun",
     "mailjet": "Mailjet"
   },
   "emailFields": {
-    "from": "Sender Address",
-    "domain": "Domain",
-    "key": "API-Key",
-    "host": "Host",
-    "username": "Username",
-    "password": "Password"
+    "from": "Адрес отправителя",
+    "domain": "домен",
+    "key": "API-ключ",
+    "host": "Хозяин",
+    "username": "Имя пользователя",
+    "password": "Пароль"
   }
 }

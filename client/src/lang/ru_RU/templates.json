@@ -39,19 +39,19 @@
   "VarNameNoSpaces": "Имя переменной не может быть пустым или содержать пробелы",
   "SupportedEnvironments": "Поддерживаемые окружения",
   "RunConfig": "Запустить конфигурацию",
-  "PreHook": "Pre Run Hook",
-  "PostHook": "Post Run Hook",
+  "PreHook": "Предварительный крючок",
+  "PostHook": "Крюк после пробежки",
   "AddPreStep": "Добавить шаг перед запуском",
   "AddPostStep": "Добавить шаг после запуска",
   "DeletePreStep": "Удалить шаг перед запуском",
   "DeletePostStep": "Удалить шаг после запуска",
   "Shutdown": "Выключить",
   "Command": "Команда",
-  "WorkingDirectory": "Working Directory",
+  "WorkingDirectory": "Рабочий каталог",
   "Arguments": "Аргументы",
   "AddArgument": "Добавить аргумент",
-  "Convert": "Convert",
-  "OfferV1Convert": "This template json looks like a template for PufferPanel 1.x, do you want to automatically convert this to a template for PufferPanel 2.x?",
+  "Convert": "Перерабатывать",
+  "OfferV1Convert": "Этот шаблон json выглядит как шаблон для PufferPanel 1.x, хотите ли вы автоматически преобразовать его в шаблон для PufferPanel 2.x?",
   "import": {
     "OverrideWarning": "ВНИМАНИЕ: Импортированные шаблоны БУДУТ перезаписывать существующие шаблоны с тем же ID",
     "Import": "Импорт шаблонов",
@@ -76,10 +76,10 @@
       "commands": "Команды"
     },
     "alterfile": {
-      "ProcessorName": "Change file",
-      "regex": "Treat search as RegEx",
-      "search": "Text to search",
-      "replace": "Replace with"
+      "ProcessorName": "Сменить файл",
+      "regex": "Рассматривать поиск как RegEx",
+      "search": "Текст для поиска",
+      "replace": "Заменить"
     },
     "writefile": {
       "ProcessorName": "Записать в файл",

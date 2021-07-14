@@ -12,7 +12,7 @@
   "ServersFilesPut": "Rediger og upload filer ved hjælp af filhåndteringen",
   "ServersEditUsers": "Rediger brugerens adgang til denne server",
   "Admin": "Admin (dette giver alle tilladelser)",
-  "ViewServers": "See Servers",
+  "ViewServers": "Se Servere",
   "CreateServers": "Opret nye servere",
   "DeleteServers": "Slet Servere",
   "EditServerAdmin": "Rediger Serverindstillinger",
@@ -22,5 +22,6 @@
   "ViewTemplates": "Se Skabeloner",
   "EditTemplates": "Redigerer skabeloner",
   "ViewUsers": "Se alle brugere",
-  "EditUsers": "Rediger andre brugere"
+  "EditUsers": "Rediger andre brugere",
+  "PanelSettings": "Change panel settings"
 }

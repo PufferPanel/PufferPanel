@@ -1,5 +1,5 @@
 {
-  "Id": "ID",
+  "Id": "Я БЫ",
   "Name": "Имя",
   "Address": "Адрес",
   "Online": "Онлайн",
@@ -37,5 +37,5 @@
   "ThemeOptions": "Настройки темы",
   "Protocol": "Протокол",
   "Add": "Добавить",
-  "Ignore": "Ignore"
+  "Ignore": "Игнорировать"
 }

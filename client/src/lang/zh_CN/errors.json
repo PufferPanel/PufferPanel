@@ -37,5 +37,5 @@
   "ErrSocketFailed": "WebSocket 连接出错，部分功能可能较为缓慢或无法使用",
   "ErrInviteLinkInvalid": "您的邀请链接似乎无效",
   "ErrSavingInviteduser": "创建账户时出错",
-  "ErrDirectoryUploadNotSupported": "Cannot upload folders"
+  "ErrDirectoryUploadNotSupported": "无法上传文件夹"
 }

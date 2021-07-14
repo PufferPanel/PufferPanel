@@ -29,13 +29,13 @@
   "UpdateSuccess": "已更新用户",
   "UpdateError": "更新用户时出错",
   "PermsUpdateError": "更新用户权限时出错",
-  "Otp": "Two factor authentication",
-  "OtpEnable": "Enable 2FA",
-  "OtpDisable": "Disable 2FA",
-  "OtpHint": "Two-factor authentication adds an additional layer of security to your account by requiring more than just a password to log in.",
-  "OtpSetup": "2FA Setup",
-  "OtpSetupHint": "Scan the QR code using your authenticator application or copy the secret code below into it",
-  "OtpSecret": "Secret Code",
-  "OtpConfirm": "Confirm using a 2FA code",
-  "OtpNeeded": "Second factor required"
+  "Otp": "两步认证",
+  "OtpEnable": "启用两步认证",
+  "OtpDisable": "禁用两步认证",
+  "OtpHint": "两步认证在密码的基础上添加了额外的安全防护。",
+  "OtpSetup": "两步认证设置",
+  "OtpSetupHint": "使用您的验证器应用扫描二维码或复制下方的的秘密代码",
+  "OtpSecret": "秘密代码",
+  "OtpConfirm": "使用两步认证码确认",
+  "OtpNeeded": "需要两步认证"
 }
